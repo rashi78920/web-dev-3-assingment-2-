@@ -41,7 +41,7 @@ student-management-api/
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "Rashi",
   "age": 20,
   "grade": "A"
 }
@@ -67,9 +67,9 @@ Server will run at: `http://localhost:3000`
 1. **GET All Students**: `GET http://localhost:3000/students`
 2. **GET Single Student**: `GET http://localhost:3000/students/1`
 3. **Create Student**: `POST http://localhost:3000/students`
-   - Body (JSON): `{"name": "Alice", "age": 21, "grade": "A"}`
+   - Body (JSON): `{"name": "Rashi", "age": 21, "grade": "A"}`
 4. **Update Student**: `PUT http://localhost:3000/students/1`
-   - Body (JSON): `{"name": "Alice Updated", "age": 22, "grade": "A+"}`
+   - Body (JSON): `{"name": "Rashi Updated", "age": 22, "grade": "A+"}`
 5. **Delete Student**: `DELETE http://localhost:3000/students/1`
 
 ## Error Responses
